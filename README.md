@@ -21,3 +21,14 @@ I had to change in the scripts section
     "start": "react-scripts start",` to 
     `  "scripts": {
     "start": "serve -s build",`.
+    
+  #### How to change style in react (for example depending of a variable)
+  
+  ` <div
+        className="projProgress"
+        style={{
+          height: projects[id].progress * 100 + "%",
+        }}
+      ></div> `
+      
+      
