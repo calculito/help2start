@@ -36,5 +36,11 @@ I had to change in the scripts section
   Check this [page](https://joshwcomeau.com/react/announcing-use-sound-react-hook/#installation).
   
   All you have to do is to import the `import useSound from 'use-sound';`, then import your sound file `import boopSfx from '../../sounds/boop.mp3';`, write a small function in your hook `const [play] = useSound(boopSfx);` and put where you wish the action `<button onClick={play}>Boop!</button>;`. And you already have your first sound effect.
+  
+  #### What about setInterval and hooks? I lost at least two years of my life in the last 3 hours.
+  
+  Here is an amazing solution [website](https://overreacted.io/making-setinterval-declarative-with-react-hooks/). Additionally, you can learn something about building your own hooks... Thanks a lot!!!
+  
+  
       
       
